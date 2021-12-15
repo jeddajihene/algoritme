@@ -1,0 +1,22 @@
+ALGORITHM algorithm_jihene
+VAR
+    nb vowels:integer:=0;
+    nombre de caractere:integer:=1;
+    CHAR:=CHAR;
+    nb word:integer:=1;
+   
+BEGIN
+   WHILE (char<>".") DO
+    read(char)
+    nombre de caractere:=nombre de caractere+1
+    if (char="")THEN
+    nb word:=nb word+1
+    else if (char in[o or y or a or u or i or e]) THEN
+    nb vowels:=nb vowels+1
+    END_IF
+   END_WHILE
+   write(the nb of words is"",nb word)
+   write(the nb of vowels is"",nb vowels)
+   write(the nb of caractere is"",nb caractere)
+
+END
